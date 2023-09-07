@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* Hide scrollbars */
+}
+
+.container {
+    display: flex;
+   flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+           
+    flex-wrap: nowrap;
+    .item1 {
+        background-color: #FFCD9E;
+        
+        display: flex;
+        flex-direction: column;
+      
+        margin: 0;
+        padding: 0;
+         /* Hide content overflow */
+        height:70vh; /* Adjusted the height to fit within the viewport */
+        #hello1{
+            color: #282828;
+            font-family: Inter;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%; /* 54px */
+            width: 562px;
+            padding:83px 742px 28px 136px;
+            }
+            
+        #hello2{
+            display: flex;
+width: 495px;
+height: 81px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #484848;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 32px */
+margin:28px 187px 15px 136px;
+        }
+       
+    #hello3{
+        display: flex;
+width: 227px;
+height: 81px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #282828;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: 160%; /* 32px */
+padding:0px 0px 0px 136px;
+    }
+
+    #hello5 input[type="submit"] {
+        background-color: rgb(38, 38, 38); /* Button background color */
+        color: white; /* Text color */
+        border: none; /* Remove button border */
+        padding: 10px 20px; /* Adjust padding as needed */
+        cursor: pointer; /* Hover effect (cursor pointer) */
+        border-radius: 5px; /* Rounded corners, adjust as needed */
+        font-size: 20px; /* Font size */
+        text-transform: uppercase; /* Convert text to uppercase */
+        font-weight: bold; /* Bold text */
+    }
+    #hello4 input[type="email"]{
+
+        
+        flex-wrap: nowrap;
+        background-color: white ;/* Button background color */
+        color: rgb(38,38,38); /* Text color */
+        border: none; /* Remove button border */
+        padding: 10px 20px; /* Adjust padding as needed */
+        cursor: pointer; /* Hover effect (cursor pointer) */
+        border-radius: 5px; /* Rounded corners, adjust as needed */
+        font-size: 20px; /* Font size */
+         /* Convert text to uppercase */
+   /* Bold text */
+    }
+    #hello4{
+        margin: 4px  728px 18px 136px; 
+        
+
+    }
+    #hello6{
+
+        color:white;
+        margin: 0px  962px 52px 136px; 
+    }
+  }
+  .item1{
+    background-image: url(./dweep\ io\ 1.png);
+    background-repeat: no-repeat;
+    background-position:right;
+height: 575px;
+  }
+}
+    .item2 {
+        background-color: #282828;
+        
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Hide content overflow */
+        /* Adjusted the height to fit within the viewport */
+        .innerclassleft{
+
+flex-shrink: 0;
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 32px */
+margin:54px 1022px 200px 191px;
+        }
+    .innerright{
+        line-height: 160%;
+        color:white;
+        margin:40px 0px 0px -93px;
+    
+        #inner1{
+            color:white;
+            line-height: 160%;
+            margin:0px 0px 0px -89px;
+           
+            
+            
+        }
+        #inner2{
+            color:white;
+            line-height: 160%;
+            margin:0px 0px 0px -40px;
+        }
+
+
+       
+      
+    }
+    }
+
+
